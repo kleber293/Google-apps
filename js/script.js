@@ -68,15 +68,15 @@
       tags: ['vídeos']
     },
     { n: 'Google Looker', d: 'Gestão e analise de dados', u: 'https://lookerstudio.google.com/u/0/navigation/reporting',
-      i: '',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/looker.png?raw=true',
      tags: ['Dados', 'filtros']
     },
     { n: 'Instagram', d: 'Rede social', u: 'https://www.instagram.com/',
-      i: '',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/instagram.png?raw=true',
       tags: ['Rede social', 'fotos', 'curtidas', 'posts']
     },
     { n: 'Canvas', d: 'Desinger', u: 'https://www.canva.com/',
-     i: '',
+     i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/canvas.png?raw=true',
      tags: ['Fotos', 'posters', 'edição']
     },
   ];
