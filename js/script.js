@@ -55,7 +55,7 @@
       i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/earth.png?raw=true', 
       tags: ['mapas', '3D']
     },
-    { n: 'Notebook LLM', d: 'Anotações com IA', u: 'https://notebook.llm.ai',
+    { n: 'Notebook LLM', d: 'Anotações com IA', u: 'https://notebooklm.google/?gad_source=1&gad_campaignid=22913178387&gbraid=0AAAAA-fwSscKjDm26qaw8LemFLcwE-RE8',
       i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/llm.png?raw=true', 
       tags: ['anotações', 'IA', 'inteligência artificial']
     },
