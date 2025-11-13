@@ -1,70 +1,70 @@
   const apps = [
     { n: 'Gmail', d: 'Email do Google', u: 'https://mail.google.com', 
-      i: 'https://github.com/kleber293/logos/blob/main/logos/gmail.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/gmail.png?raw=true',
       tags: ['email', 'correio']
     },
     { n: 'Google Drive', d: 'Arquivos e pastas na nuvem', u: 'https://drive.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/drive.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/drive.png?raw=true',
       tags: ['armazenamento', 'nuvem', 'arquivos']
     },
     { n: 'Google Docs', d: 'Editor de textos online', u: 'https://docs.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/docs.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/docs.png?raw=true',
       tags: ['texto', 'documentos', 'office']
     },
     { n: 'Google Sheets', d: 'Planilhas na web', u: 'https://sheets.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/sheet.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/sheet.png?raw=true',
       tags: ['planilhas', 'excel', 'tabelas']
     },
     { n: 'Google Forms', d: 'Formulários e pesquisas', u: 'https://forms.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/forms.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/forms.png?raw=true', 
       tags: ['formulários', 'pesquisas']
     },
     { n: 'Google Slides', d: 'Apresentações', u: 'https://slides.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/slides.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/slides.png?raw=true',
       tags: ['apresentações', 'ppt']
     },
     { n: 'Google Classroom', d: 'Turmas e salas', u: 'https://classroom.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/classroom.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/classroom.png?raw=true', 
       tags: ['educação', 'turmas']
     },
     { n: 'Google Sites', d: 'Criação de sites', u: 'https://sites.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/sites.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/sites.png?raw=true', 
       tags: ['sites', 'páginas']
     },
     { n: 'Google Calendar', d: 'Agenda e eventos', u: 'https://calendar.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/calendar.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/calendar.png?raw=true',
       tags: ['agenda', 'eventos', 'calendário']
     },
     { n: 'Google Meet', d: 'Reuniões por vídeo', u: 'https://meet.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/meet.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/meet.png?raw=true',
       tags: ['videoconferência', 'reuniões']
     },  
     { n: 'Google Translate', d: 'Tradução', u: 'https://translate.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/translater.png?raw=true',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/translater.png?raw=true',
       tags: ['tradução', 'idiomas']
     },
     { n: 'Google Photos', d: 'Fotos e álbuns', u: 'https://photos.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/photos.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/photos.png?raw=true', 
       tags: ['fotos', 'imagens']
     },
     { n: 'Google Tasks', d: 'Tarefas integradas', u: 'https://tasks.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/taks.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/taks.png?raw=true', 
       tags: ['tarefas', 'to-do']
     },   
     { n: 'Google earth', d: 'Mapas 3D', u: 'https://earth.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/earth.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/earth.png?raw=true', 
       tags: ['mapas', '3D']
     },
     { n: 'Notebook LLM', d: 'Anotações com IA', u: 'https://notebook.llm.ai',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/llm.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/llm.png?raw=true', 
       tags: ['anotações', 'IA', 'inteligência artificial']
     },
     { n: 'Google maps', d: 'Navegação e mapas', u: 'https://maps.google.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/maps.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/maps.png?raw=true', 
       tags: ['navegação', 'mapas']
     },
     { n: 'YouTube', d: 'Vídeos', u: 'https://www.youtube.com',
-      i: 'https://github.com/kleber293/logos/blob/main/logos/youtube.png?raw=true', 
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/youtube.png?raw=true', 
       tags: ['vídeos']
     },
 
