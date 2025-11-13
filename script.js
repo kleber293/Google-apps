@@ -1,0 +1,111 @@
+  const apps = [
+    { n: 'Gmail', d: 'Email do Google', u: 'https://mail.google.com', 
+      i: 'https://github.com/kleber293/logos/blob/main/logos/gmail.png?raw=true',
+      tags: ['email', 'correio']
+    },
+    { n: 'Google Drive', d: 'Arquivos e pastas na nuvem', u: 'https://drive.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/drive.png?raw=true',
+      tags: ['armazenamento', 'nuvem', 'arquivos']
+    },
+    { n: 'Google Docs', d: 'Editor de textos online', u: 'https://docs.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/docs.png?raw=true',
+      tags: ['texto', 'documentos', 'office']
+    },
+    { n: 'Google Sheets', d: 'Planilhas na web', u: 'https://sheets.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/sheet.png?raw=true',
+      tags: ['planilhas', 'excel', 'tabelas']
+    },
+    { n: 'Google Forms', d: 'Formulários e pesquisas', u: 'https://forms.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/forms.png?raw=true', 
+      tags: ['formulários', 'pesquisas']
+    },
+    { n: 'Google Slides', d: 'Apresentações', u: 'https://slides.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/slides.png?raw=true',
+      tags: ['apresentações', 'ppt']
+    },
+    { n: 'Google Classroom', d: 'Turmas e salas', u: 'https://classroom.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/classroom.png?raw=true', 
+      tags: ['educação', 'turmas']
+    },
+    { n: 'Google Sites', d: 'Criação de sites', u: 'https://sites.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/sites.png?raw=true', 
+      tags: ['sites', 'páginas']
+    },
+    { n: 'Google Calendar', d: 'Agenda e eventos', u: 'https://calendar.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/calendar.png?raw=true',
+      tags: ['agenda', 'eventos', 'calendário']
+    },
+    { n: 'Google Meet', d: 'Reuniões por vídeo', u: 'https://meet.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/meet.png?raw=true',
+      tags: ['videoconferência', 'reuniões']
+    },  
+    { n: 'Google Translate', d: 'Tradução', u: 'https://translate.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/translater.png?raw=true',
+      tags: ['tradução', 'idiomas']
+    },
+    { n: 'Google Photos', d: 'Fotos e álbuns', u: 'https://photos.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/photos.png?raw=true', 
+      tags: ['fotos', 'imagens']
+    },
+    { n: 'Google Tasks', d: 'Tarefas integradas', u: 'https://tasks.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/taks.png?raw=true', 
+      tags: ['tarefas', 'to-do']
+    },   
+    { n: 'Google earth', d: 'Mapas 3D', u: 'https://earth.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/earth.png?raw=true', 
+      tags: ['mapas', '3D']
+    },
+    { n: 'Notebook LLM', d: 'Anotações com IA', u: 'https://notebook.llm.ai',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/llm.png?raw=true', 
+      tags: ['anotações', 'IA', 'inteligência artificial']
+    },
+    { n: 'Google maps', d: 'Navegação e mapas', u: 'https://maps.google.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/maps.png?raw=true', 
+      tags: ['navegação', 'mapas']
+    },
+    { n: 'YouTube', d: 'Vídeos', u: 'https://www.youtube.com',
+      i: 'https://github.com/kleber293/logos/blob/main/logos/youtube.png?raw=true', 
+      tags: ['vídeos']
+    },
+
+  ];
+
+  const grid = document.getElementById('grid');
+  const q = document.getElementById('q');
+
+  function render(list) {
+    grid.innerHTML = '';
+    list.forEach(a => {
+      const el = document.createElement('a');
+      el.className = 'card';
+      el.href = a.u;
+      // el.target = '_blank'; el.rel = 'noopener noreferrer';
+      el.innerHTML = `
+        <div class="icon">
+          <img src="${a.i}" alt="${a.n}">
+        </div>
+        <div class="meta">
+          <div class="name">${a.n}</div>
+          <div class="desc">${a.d}</div>
+        </div>
+        <span class="tag">
+          ${(a.tags?.[0] || 'app')}
+        </span>
+      `;
+      grid.appendChild(el);
+    });
+  }
+
+  function filter(term) {
+    term = term.toLowerCase().trim();
+    if (!term) return apps;
+    return apps.filter(a =>
+      a.n.toLowerCase().includes(term) ||
+      a.d.toLowerCase().includes(term) ||
+      (a.
+      tags || []).some(t => t.toLowerCase().includes(term))
+    );
+  }
+    
+  render(apps);
+  q.addEventListener('input', () => render(filter(q.value)));
