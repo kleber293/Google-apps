@@ -76,8 +76,12 @@
       tags: ['Rede social', 'fotos', 'curtidas', 'posts']
     },
     { n: 'Canvas', d: 'Desinger', u: 'https://www.canva.com/',
-     i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/canvas.png?raw=true',
-     tags: ['Fotos', 'posters', 'edição']
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/canvas.png?raw=true',
+      tags: ['Fotos', 'posters', 'edição']
+    },
+    { n: 'Opal', d: 'Ia full streck', u: 'https://opal.google/landing/',
+      i 
+      
     },
   ];
 
