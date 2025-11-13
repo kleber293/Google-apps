@@ -67,7 +67,18 @@
       i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/youtube.png?raw=true', 
       tags: ['vídeos']
     },
-
+    { n: 'Google Looker', d: 'Gestão e analise de dados', u: 'https://lookerstudio.google.com/u/0/navigation/reporting',
+      i: '',
+     tags: ['Dados', 'filtros']
+    },
+    { n: 'Instagram', d: 'Rede social', u: 'https://www.instagram.com/',
+      i: '',
+      tags: ['Rede social', 'fotos', 'curtidas', 'posts']
+    },
+    { n: 'Canvas', d: 'Desinger', u: 'https://www.canva.com/',
+     i: '',
+     tags: ['Fotos', 'posters', 'edição']
+    },
   ];
 
   const grid = document.getElementById('grid');
