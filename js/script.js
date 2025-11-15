@@ -84,7 +84,7 @@
       tags: ['Ia', 'aplicativos', 'ensino']
     },
     {
-      n: 'GitHub', d: 'Plataforma de hospedagem de código-fonte', u: 'https://github.com/',
+      n: 'GitHub', d: 'Hospedagem de código-fonte', u: 'https://github.com/',
       i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/github.png?raw=true',
       tags: ['Plataforma', 'Programação', 'Desenvolvimento']
     },
