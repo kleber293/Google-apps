@@ -82,7 +82,12 @@
     { n: 'Opal', d: 'Ia full streck', u: 'https://opal.google/landing/',
       i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/Opal.png?raw=true',
       tags: ['Ia', 'aplicativos', 'ensino']
-    }
+    },
+    {
+      n: 'GitHub', d: 'GitHub é uma plataforma de hospedagem de código-fonte', u: 'https://github.com/',
+      i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/github.png?raw=true',
+      tags: ['Plataforma', 'Programação', 'Desenvolvimento']
+    },
   ];
 
   const grid = document.getElementById('grid');
