@@ -81,8 +81,8 @@
     },
     { n: 'Opal', d: 'Ia full streck', u: 'https://opal.google/landing/',
       i: 'https://github.com/kleber293/Google-apps/blob/main/Logos/Opal.png?raw=true',
-     tags: ['Ia', 'aplicativos', 'ensino']
-    },
+      tags: ['Ia', 'aplicativos', 'ensino']
+    }
   ];
 
   const grid = document.getElementById('grid');
