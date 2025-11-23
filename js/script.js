@@ -1,6 +1,6 @@
   const apps = [
     { n: 'Gmail', d: 'Email do Google', u: 'https://mail.google.com', 
-      i: '<img src="./logos/Gmail.png"/>',
+      i: '<img src="../logos/Gmail.png" />',
       tags: ['email', 'correio']
     },
     { n: 'Google Drive', d: 'Arquivos e pastas na nuvem', u: 'https://drive.google.com',
