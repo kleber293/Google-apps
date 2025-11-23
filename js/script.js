@@ -102,7 +102,7 @@
       // el.target = '_blank'; el.rel = 'noopener noreferrer';
       el.innerHTML = `
         <div class="icon">
-          <img src="${a.i}" alt="${a.n}">
+          <img src="${a.i}" alt="${a.n}" />
         </div>
         <div class="meta">
           <div class="name">${a.n}</div>
